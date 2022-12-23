@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>5-Day Weather</title>
+    <link rel="stylesheet"
+        href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="col-12 deep purple darken-4">
+        <h2>Weather Dashboard</h2>
+    </div>
+    <div class="row">
+        <aside>
+            <h2>Search for a City</h2>
+            <input id="input"
+                placeholder="Enter city here">
+            </input>
+            <button id="searchBtn">submit</button>
+            <hr>
+
+            <div id="history"></div>
+        </aside>
+        <main>
+            <section id="current"></section>
+            <h2>5-Day Forecast:</h2>
+            <section id="forecast"></section>
+        </main>
+    </div>
+
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
